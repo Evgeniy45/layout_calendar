@@ -24,12 +24,13 @@ $days: (
     box-sizing: border-box;
     width: var(--calendar-day-size);
     height: var(--calendar-day-size);
+    border: 1px solid black;
 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
 
     background-color: #eee;
-    border: 1px solid black;
+
 
     transition: all 0.5s;
 
